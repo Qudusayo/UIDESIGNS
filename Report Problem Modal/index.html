@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Problem Modal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">What's hapenning?</h1>
+        <p class="info">Check all that apply</p>
+
+        <form action="#">
+            <div class="flex">
+                <input type="checkbox" id="videoerror">
+                <label for="videoerror">
+                </label>
+
+                <div class="content">
+                    <h2 class="head">Video Problem</h2>
+                    <p class="about">Blurry, cut outs, or looks strange in some way.</p>
+                </div>
+            </div>
+            <div class="flex">
+                <input type="checkbox" id="soundproblem">
+                <label for="soundproblem">
+                </label>
+                <div class="content">
+                    <h2 class="head">Sound Problem</h2>
+                    <p class="about">Hard to hear, not match with video or missing in some parts.</p>
+                </div>
+            </div>
+            <div class="flex">
+                <input type="checkbox" id="subtitleproblem">
+                <label for="subtitleproblem">
+                </label>
+                <div class="content">
+                    <h2 class="head">Subtitle or caption Problem</h2>
+                    <p class="about">Missing, hard to read, not matched with sound, mispelling or poor translation.</p>
+                </div>
+            </div>
+
+            <p>It's something else</p>
+            <textarea cols="30" rows="6" placeholder="Let us know what's going on"></textarea>
+
+            <button type="submit">Submit Report</button>
+        </form>
+    </div>
+
+    <footer>
+        Stats Card Source: <a href="https://uidesigndaily.com/posts/sketch-report-problem-modal-pop-up-day-1133">click
+            here</a>
+    </footer>
+</body>
+
+</html>

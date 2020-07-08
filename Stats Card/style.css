@@ -1,0 +1,84 @@
+body {
+  background-color: rgba(34, 63, 94, 0.9);
+  height: 95vh;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(34, 63, 94, 0.9);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(30, 38, 46, 0.856);
+  border-radius: 50px;
+}
+
+.container {
+  background-color: rgba(30, 38, 46, 0.856);
+  border-radius: 12px;
+  width: 70%;
+  color: #fefefe;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 3% 8%;
+  margin: 5% auto;
+  text-align: center;
+  min-height: 70vh;
+}
+
+.container .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 7% auto 10%;
+}
+
+.container .flex_content {
+  width: 28%;
+}
+
+.container .flex_content h2 {
+  font-size: 2.1em;
+}
+
+.container .flex_content p {
+  font-size: small;
+  font-weight: 100;
+}
+
+.container .footer {
+  font-size: small;
+}
+
+.container .footer a {
+  color: #3c5dd9;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .container .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .flex_content {
+    width: 50%;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
