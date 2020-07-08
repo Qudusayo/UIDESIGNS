@@ -1,0 +1,97 @@
+body {
+  background-color: #eeeeee;
+}
+
+.container {
+  background-color: #fefefe;
+  border-radius: 12px;
+  font-family: "Nunito", sans-serif;
+  width: 50%;
+  padding: 4% 10%;
+  margin: 7% auto;
+  text-align: center;
+  -webkit-box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .title {
+  font-size: x-large;
+}
+
+.container .about {
+  font-size: 1em;
+}
+
+.container .form .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 7%;
+}
+
+.container .form .flex input[type="email"] {
+  height: 45px;
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5;
+          flex: 2.5;
+  outline: none;
+  border: 1px solid #c9c9c9;
+  font-family: "Nunito", sans-serif;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.container .form .flex input[type="email"],
+.container .form .flex button {
+  border-radius: 5px;
+}
+
+.container .form .flex button {
+  outline: none;
+  border: none;
+  background-color: #3983ce;
+  height: 50px;
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+  margin-left: 4%;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 4px 4px #449effd5;
+          box-shadow: 0px 4px 4px #449effd5;
+}
+
+.container .form .flex-footer {
+  margin-top: 1%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .form .flex-footer input {
+  margin-top: -3%;
+  margin-right: 3%;
+  width: 20px;
+  height: 20px;
+}
+
+.container .form .flex-footer p {
+  font-size: 0.9em;
+}
+
+footer {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #565656;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3983ce;
+}
+/*# sourceMappingURL=style.css.map */
