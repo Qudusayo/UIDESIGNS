@@ -115,3 +115,35 @@ footer a {
   text-decoration: none;
   color: #3983ce;
 }
+
+@media screen and (max-width: 600px) {
+  .form form {
+    display: block;
+  }
+  .form form input, .form form button {
+    display: block;
+    margin: 0 auto;
+  }
+  .form form input {
+    width: 95%;
+    border-radius: 5px;
+  }
+  .form form button {
+    width: inherit;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .flex_content {
+    margin: 5% auto;
+  }
+}

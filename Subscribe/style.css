@@ -94,3 +94,39 @@ footer a {
   text-decoration: none;
   color: #3983ce;
 }
+
+@media screen and (max-width: 768px) {
+  .container .form .flex-input input[type="email"] {
+    max-width: 90%;
+  }
+  .container .form .flex-input input[type="email"]::-webkit-input-placeholder {
+    font-size: small;
+  }
+  .container .form .flex-input input[type="email"]:-ms-input-placeholder {
+    font-size: small;
+  }
+  .container .form .flex-input input[type="email"]::-ms-input-placeholder {
+    font-size: small;
+  }
+  .container .form .flex-input input[type="email"]::placeholder {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container .form .flex-input {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100px;
+  }
+  .container .form .flex-input input {
+    width: 100%;
+  }
+  .container .form .flex-input button {
+    display: block;
+    margin: 1% auto;
+    width: 100%;
+  }
+}

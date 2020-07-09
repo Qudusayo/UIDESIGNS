@@ -142,3 +142,38 @@ footer a {
   text-decoration: none;
   color: #3983ce;
 }
+
+@media screen and (max-width:  938px){
+  .flex_container{
+    flex-direction: column;
+
+    &_content{
+      width: 80%;
+      margin-bottom: 5%;
+    }
+  }
+}
+
+@media screen and (max-width:  800px){
+  .flex{
+    flex-direction: column;
+
+    &_form {
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (max-width:  940px)  and (min-width: 426px){
+  .flex_container {
+    &_content{
+      h4{
+        margin-bottom: 0;
+      }
+
+      button{
+        margin-top: 20%;
+      }
+    }
+  }
+}

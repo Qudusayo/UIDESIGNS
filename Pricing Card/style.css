@@ -20,7 +20,7 @@ body {
       justify-content: space-around;
 }
 
-.flex .flex2 {
+.flex2 {
   border-right: 0.1px solid rgba(178, 170, 171, 0.185);
 }
 
@@ -87,4 +87,16 @@ footer {
 footer a {
   text-decoration: none;
   color: #3983ce;
+}
+
+@media screen and (max-width: 540px) {
+  .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flex2 {
+    border: none;
+  }
 }

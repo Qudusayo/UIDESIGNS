@@ -74,3 +74,32 @@ footer a {
   text-decoration: none;
   color: #3983ce;
 }
+
+@media screen and (max-width: 660px) {
+  .container button {
+    margin-bottom: 20px;
+  }
+  .container .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container .flex h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container .flex .content p .follow {
+    display: block;
+  }
+  .container .flex .content p .follow:nth-of-type(1) {
+    margin-bottom: -20px;
+  }
+}

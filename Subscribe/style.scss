@@ -86,3 +86,45 @@ footer a {
   text-decoration: none;
   color: #3983ce;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    .form {
+      .flex {
+        &-input {
+          input[type="email"]{
+            max-width: 90%;
+
+            &::placeholder{
+              font-size: small;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    .form {
+      .flex {
+        &-input {
+          display: block;
+          align-items: center;
+          height: 100px;
+
+          input{
+            width: 100%;
+          }
+
+          button{
+            display: block;
+            margin: 1% auto;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

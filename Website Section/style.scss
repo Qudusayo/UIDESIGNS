@@ -93,3 +93,40 @@ footer a {
   text-decoration: none;
   color: #3983ce;
 }
+
+@media screen  and (max-width: 600px){
+  .form{
+    form{
+      display: block;
+
+      input,  button{
+        display: block;
+        margin: 0 auto;
+      }
+
+      input{
+        width: 95%;
+        border-radius: 5px;
+      }
+
+      button{
+        width: inherit;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px){
+  .header{
+    .flex{
+      flex-direction: column;
+
+      &_content{
+        margin: 5% auto;
+      }
+    }
+  }
+}
