@@ -1,0 +1,85 @@
+body {
+  background-color: #e8e8e8;
+  margin: 0;
+  padding-top: 50%;
+}
+
+.footer {
+  background-color: #5877ed;
+  padding: 8% 4% 1%;
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  position: relative;
+  -webkit-clip-path: polygon(50% 0, 100% 5%, 100% 100%, 0 100%, 0 5%);
+          clip-path: polygon(50% 0, 100% 5%, 100% 100%, 0 100%, 0 5%);
+}
+
+.footer h1 {
+  text-transform: capitalize;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.footer .info {
+  width: 48%;
+  font-size: small;
+  margin: 3% auto;
+  text-align: center;
+}
+
+.footer button {
+  display: block;
+  padding: 15px 30px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  font-size: normal;
+  font-family: "Nunito", sans-serif;
+  color: #0077ff;
+  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.footer .about {
+  border-top: 1px solid #ececec71;
+  padding-top: 20px;
+  font-size: small;
+  text-align: center;
+}
+
+.footer .about .flexed {
+  margin: auto;
+}
+
+.footer .about .media {
+  text-align: right;
+}
+
+.footer .about a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer .about a:nth-of-type(2), .footer .about a:nth-of-type(3) {
+  margin-left: 3%;
+}
+
+.footer_text {
+  text-align: center;
+  font-size: small;
+}
+
+@media screen and (max-width: 600px) {
+  .footer h1 {
+    width: 90%;
+  }
+  .footer .info {
+    width: 80%;
+  }
+}
