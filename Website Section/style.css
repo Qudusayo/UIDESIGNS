@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.header {
+  background-color: #14142c;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  padding-top: 18%;
+  padding-bottom: 15%;
+}
+
+.header .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header .flex_content {
+  text-align: center;
+}
+
+.header .flex_content h1,
+.header .flex_content p {
+  margin: 0;
+}
+
+.header .flex_content p {
+  font-weight: 200;
+  font-size: small;
+}
+
+.form {
+  width: 60%;
+  background: -webkit-gradient(linear, left top, right top, from(#fd4c5b), to(#f3839b));
+  background: linear-gradient(to right, #fd4c5b, #f3839b);
+  border-radius: 12px;
+  margin: auto;
+  margin-top: -10%;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  padding: 2% 5% 4%;
+}
+
+.form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.form form input {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  height: 45px;
+  background: transparent;
+  padding-left: 20px;
+  border: 1px solid #ffffff;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.form form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.form form input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.form form input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.form form input::placeholder {
+  color: #ffffff;
+}
+
+.form form button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 49px;
+  outline: none;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: bolder;
+  color: #444444;
+}
+
+.form form input,
+.form form button {
+  font-family: "Nunito", sans-serif;
+}
+
+footer {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #565656;
+  margin-bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3983ce;
+}
+/*# sourceMappingURL=style.css.map */
